@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eta.ifmo.java-advanced</groupId>
+    <artifactId>homeworks</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>concurrent</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.concurrent.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>mapper</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.mapper.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>crawler</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.crawler.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>hello</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.hello.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>student</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.student.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
