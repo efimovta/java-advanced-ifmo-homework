@@ -44,6 +44,55 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.student.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>walk</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.walk.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>arrayset</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.arrayset.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>info.kgeorgiy</groupId>
+            <artifactId>base</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/info.kgeorgiy.java.advanced.base.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>junit</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/junit-4.11.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/hamcrest-core-1.3.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/jsoup-1.8.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>quickcheck</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/quickcheck-0.6.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
